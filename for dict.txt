@@ -1,0 +1,17 @@
+population = {'USA': 331, 'China': 1440, 'India': 1390, 'Brazil': 213}
+
+for country, p in population.items():
+    print(f"The population of {country} is {p} million.")
+
+1.population.items():population dictionary la irrunthu each pair of country and population ah yeduthukum.
+2.for country , p in population. item():this part says,"for each pair in th dictionary,do the following..
+3."country" and "p" = these are the bukets that we use to catch the value of the pair"country catches the country name the key and"p" catches the population .
+
+
+
+So, in simpler terms, it's like saying, "For each country and its population in the dictionary, tell me what the population is." The loop takes care of going through each country and its population one by one.
+
+
+
+
+
